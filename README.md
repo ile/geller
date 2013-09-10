@@ -22,17 +22,17 @@ var uri = new Uri();
 Note! Uri.set() will automatically set the browser's URL hash.
 
 ```javascript
-params = uri.get();  // {}
+var params = uri.get();  // {}
 ```
 ```javascript
 uri.set({ x: 1 });
-params = uri.get();  // { x: 1 }
+var params = uri.get();  // { x: 1 }
 ```
 
 ```javascript
 var obj = { x:1 , y: 2, z: 3 }
 uri.set(obj);
-params = uri.get();  // { x: 1, y: 2, z: 3 }
+var params = uri.get();  // { x: 1, y: 2, z: 3 }
 ```
 
 
