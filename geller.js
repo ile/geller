@@ -62,7 +62,7 @@
             kvp = p.split('=');
             k = kvp[0];
             v = p.indexOf('=') === -1 ? null : (kvp[1] === null ? '' : kvp[1]);
-            pairs[k] = v;
+            pairs[decode(k)] = decode(v);
         }
         return pairs;
     }
