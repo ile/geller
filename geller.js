@@ -6,6 +6,7 @@
  * Copyright 2013, Ilkka Huotari
  * Released under the MIT license.
  *
+ * Partly (C) https://github.com/derek-watson/jsUri
  */
 
 
