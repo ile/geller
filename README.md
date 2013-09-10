@@ -5,7 +5,7 @@ Simple URI hash handling.
 
 ## Usage
 
-INclude the script
+Include the script:
 
 ```html
 <script src="geller.js"></script>
